@@ -32,6 +32,7 @@ export function TaskList({
   return (
     <div>
       <div className="flex mb-4 space-x-3">
+        <span className="px-3 py-2">Filtros:</span>
         <button
           className={`task-filter-button rounded bg-blue-500 text-white px-4 py-2 ${
             filter === 'all' ? 'active' : ''
